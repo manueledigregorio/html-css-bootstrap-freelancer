@@ -6,3 +6,7 @@ header{
 .jumbotron{
   background-color: #1ABC9C;
 }
+
+.debug-col{
+  border: 1px solid black;
+}
