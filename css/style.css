@@ -7,6 +7,59 @@ header{
   background-color: #1ABC9C;
 }
 
+.about-us{
+  background-color: #1ABC9C;
+}
+
 .debug-col{
   border: 1px solid black;
 }
+
+.container-piccolo{
+  margin: 0 auto;
+  max-width: 65%;
+}
+
+/*****RESPONSIVE****/
+
+@media screen and (min-width: 576px) { 
+  
+  .container-piccolo{
+    max-width: 470px;
+  }
+ }
+
+
+@media screen and (min-width: 768px) {
+
+  .container-piccolo{
+    max-width: 610px;
+  }
+ }
+
+
+@media screen and (min-width: 992px) { 
+
+  .container-piccolo{
+    max-width: 850px;
+  }
+
+ }
+
+
+@media screen and (min-width: 1200px) {
+
+  .container-piccolo{
+    max-width: 1030px;
+  }
+
+}
+
+
+@media screen and (min-width: 1400px) { 
+
+  .container-piccolo{
+    max-width: 1210px;
+  }
+
+ }
