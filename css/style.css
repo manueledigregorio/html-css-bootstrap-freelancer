@@ -15,6 +15,15 @@ header{
   border: 1px solid black;
 }
 
+.footer{
+  background-color: #39546D;
+}
+
+.footer-bottom{
+  background-color:#2C3D50 ;
+  height: 80px;
+}
+
 .container-piccolo{
   margin: 0 auto;
   max-width: 65%;
