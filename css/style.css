@@ -1,6 +1,27 @@
 header{
   height: 80px;
   background-color: #2C3D50;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+ul li{
+  list-style: none;
+}
+
+.bt-custom a i{
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: gray;
+}
+
+.bt-custom a i:active{
+  background-color: white;
 }
 
 .jumbotron{
@@ -29,10 +50,7 @@ header{
   max-width: 65%;
 }
 
-[class^="container"] {
-  max-width: 90%;
-  margin: 0 auto;
-}
+
 
 /*****RESPONSIVE****/
 
