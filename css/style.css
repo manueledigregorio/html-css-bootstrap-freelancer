@@ -24,8 +24,30 @@ ul li{
   background-color: white;
 }
 
+/****JUMBOTRON****/
+
 .jumbotron{
   background-color: #1ABC9C;
+  color: white;
+}
+
+.avatar{
+  height: 255px;
+  width: 230px;
+}
+
+.left ,
+.right
+{
+  height: 3px; 
+  background-color: white;
+  width: 10%;
+  align-self: center;
+  border-radius: 3px;
+}
+
+.center{
+  font-size: 20px;
 }
 
 .about-us{
