@@ -88,14 +88,19 @@ ul li{
 .debug-col{
   border: 1px solid black;
 }
+.color-custom{
+  color: #1ABC9C;
+}
 
 .footer{
   background-color: #39546D;
+  color: white;
 }
 
 .footer-bottom{
   background-color:#2C3D50 ;
   height: 80px;
+  color: white;
 }
 
 
