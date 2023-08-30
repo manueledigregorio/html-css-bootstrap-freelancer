@@ -29,46 +29,10 @@ header{
   max-width: 65%;
 }
 
-/*****RESPONSIVE****/
-
-@media screen and (min-width: 576px) { 
-  
-  .container-piccolo{
-    max-width: 470px;
-  }
- }
-
-
-@media screen and (min-width: 768px) {
-
-  .container-piccolo{
-    max-width: 610px;
-  }
- }
-
-
-@media screen and (min-width: 992px) { 
-
-  .container-piccolo{
-    max-width: 850px;
-  }
-
- }
-
-
-@media screen and (min-width: 1200px) {
-
-  .container-piccolo{
-    max-width: 1030px;
-  }
-
+[class^="container"] {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
+/*****RESPONSIVE****/
 
-@media screen and (min-width: 1400px) { 
-
-  .container-piccolo{
-    max-width: 1210px;
-  }
-
- }
