@@ -40,7 +40,6 @@ ul li{
 .right
 {
   height: 3px; 
-  background-color: white;
   width: 10%;
   align-self: center;
   border-radius: 3px;
@@ -52,6 +51,7 @@ ul li{
 
 .about-us{
   background-color: #1ABC9C;
+  color: white;
 }
 
 .debug-col{
