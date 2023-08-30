@@ -13,6 +13,11 @@ ul li{
   list-style: none;
 }
 
+.container-piccolo{
+  margin: 0 auto;
+  max-width: 65%;
+}
+
 .bt-custom a i{
   border: 1px solid white;
   padding: 5px 10px;
@@ -49,11 +54,37 @@ ul li{
   font-size: 20px;
 }
 
+/****ABOUT****/
+
 .about-us{
   background-color: #1ABC9C;
   color: white;
 }
 
+.custom-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+/*******CONTACT***/
+.input-custom {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.button-custom {
+  background-color: #1ABC9C;
+  border: none;
+}
+
+.input-custom::placeholder {
+  color: black;
+}
+
+/****FOOTER*/
 .debug-col{
   border: 1px solid black;
 }
@@ -65,11 +96,6 @@ ul li{
 .footer-bottom{
   background-color:#2C3D50 ;
   height: 80px;
-}
-
-.container-piccolo{
-  margin: 0 auto;
-  max-width: 65%;
 }
 
 
